@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="FbFvicon.png">
+
+    <title>Facebook-log in or sign up </title>
+
+
+
+
+
+    <style>
+        .input {
+            width: 360px;
+            border-width: 1px;
+        }
+        
+        .btn {
+            width: 360px;
+            margin: 0 auto;
+        }
+        
+        .forgot {
+            margin: 0 auto;
+        }
+        
+        .btn2 {
+            width: 200px;
+            margin: 0 auto;
+        }
+        
+        .mainLogo {
+            margin: 0 auto;
+        }
+        
+        .bottomLine {
+            position: absolute;
+            margin-top: 425px;
+        }
+        
+        @media screen and (min-width: 800px) {
+            body .bodyy {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .logoSec {
+                margin-top: 170px;
+            }
+            .formSec {
+                margin-top: 120px;
+            }
+            .mainContaineer {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body class="bodyy bg-slate-100 ">
+
+    <div class="mainContaineer  ">
+
+        <div class="logoSec  flex justify-center">
+            <div class="logoSec2  w-96 mt-3 ml-5">
+                <img class="mainLogo h-28 ml-4" src="FbLogo.svg" alt="">
+                <p class="text-2xl -mt-3">Facebook helps you connect and share with the people in your life.</p>
+            </div>
+        </div>
+
+        <div class="formSec   flex justify-center">
+            <div class="signForm bg-white flex flex-col m-2 p-2 mt-10 rounded-xl shadow-[-15px_15px_20px_-20px_rgba(0,0,0,0.5)]">
+
+                <input class="input m-2 h-12 p-2 rounded-md border-slate-300 border-solid  " type="text" placeholder="Email address or phone number">
+
+                <input class="input m-2 h-12 p-2 rounded-md border-slate-300 border-solid   " type="password" placeholder="Password">
+
+                <button class="btn bg-blue-600 inline-block h-12 rounded-md mt-2 text-white font-bold text-xl hover:bg-blue-700">Log In</button>
+
+                <span class="forgot inline-block mt-3 hover:underline cursor-pointer text-blue-600 text-base">Forgotten password?</span>
+
+                <hr class="line mt-4 ml-3 mr-3">
+
+                <button class="btn2 bg-green-500 inline-block h-12 rounded-md mb-5 mt-6 text-white font-bold text-base hover:bg-green-600">Create New Account</button>
+
+
+
+            </div>
+            <p class="bottomLine text-sm"><b>Create a Page</b>for a celebrity, brand or business.</p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
